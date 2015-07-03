@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "robt-regl";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+body * {
+    font-family: "robt-regl";
+    font-size: 16px;
+}
+body> .nav,
+body> .footer {
+    background: #071C55;
+    min-height: 70px;
+}
+body> .nav *,
+body> .footer * {
+    color: #fff;
+}
+body> .footer {
+    margin-top: 50px;
+    padding-top: 25px;
+}
+#menu-top {
+   margin-top: 25px;
+}
+#col-menu-left {
+    position: relative;
+    bottom: 50px;
+}
+#dinamic {
+    position: relative;
+    top: 30px;
+}
+.inicio-dir {
+    position: relative;
+    top: 10px;
+}
+.inicio-dir i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    font-size: 14pt;
+    cursor: pointer;
+}
+.only-border-bottom {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #ccc;
+}
+.border-bottom-red {
+    border: none;
+    background: none;
+    border-bottom: 5px solid #AB4D65;
+}
+.panel {
+    border: none;
+}
+.panel-body {
+    position: relative;
+    border: none;
+}
+.panel-heading {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+}
+.panel-title {
+    line-height: 40px;
+}
+.panel-body,
+.panel-footer {
+    background: none;
+    padding: 0;
+}
+.color-orange {
+    color: #F39500;
+}
+.bg-red {
+    background: #900502;
+}
+.bg-blue {
+    background: #011D71;
+}
+.bg-green {
+    background: #027848;
+}
+.bg-orange {
+    background: #F39500;
+}
+.bg-morado {
+    background: rgb(93, 20, 113);
+}
+ .panel-list-links {
+     margin: auto;
+     width: 50%;
+ }
+.img-responsive {
+    width: 100%;
+}
