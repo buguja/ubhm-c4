@@ -52,6 +52,13 @@ body> .footer {
     background: none;
     border-bottom: 5px solid #AB4D65;
 }
+.copyRight {
+    padding: 20px;
+}
+strong.text-center {
+    display: block;
+    padding-bottom: 15px;
+}
 .panel {
     border: none;
 }
@@ -64,6 +71,9 @@ body> .footer {
     bottom: 0px;
     width: 100%;
     color: #fff;
+}
+.carousel img {
+    width: 100%;
 }
 .panel-title {
     line-height: 40px;
@@ -97,4 +107,11 @@ body> .footer {
  }
 .img-responsive {
     width: 100%;
+}
+.brd-btm-5 {
+    border-bottom: 5px solid #ab4d65;
+    padding-bottom: 5px;
+}
+#calendar * {
+    font-size: 12px;
 }
